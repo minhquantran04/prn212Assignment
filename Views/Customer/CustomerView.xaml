@@ -1,0 +1,42 @@
+﻿<Window x:Class="CE181985_Tran_Minh_Quan_Assignment_2.Views.Customer.CustomerView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CE181985_Tran_Minh_Quan_Assignment_2.Views.Customer"
+        Background="Yellow"
+        mc:Ignorable="d"
+        Title="Customer View" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            
+            <RowDefinition Height="*"/>
+     
+        </Grid.RowDefinitions>
+
+
+        <Grid Grid.Row="0" Background="Yellow">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <!-- Cột cho TextBlock "Customer View" -->
+                <ColumnDefinition Width="Auto"/>
+               
+            </Grid.ColumnDefinitions>
+
+         
+            <TextBlock Text="Customer View" FontSize="30" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10"/>
+
+    
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+                <Button x:Name="profileBtn" Content="Profile" Background="Beige" Click="profileBtn_Click" Margin="5" Padding="10,5"/>
+                <Button x:Name="bookingBtn" Content="Booking History" Background="Beige" Click="bookingBtn_Click" Margin="5" Padding="10,5"/>
+                <Button x:Name="logoutBtn" Content="Logout" Background="Beige" Click="logoutBtn_Click" Margin="5" Padding="10,5"/>
+            </StackPanel>
+        </Grid>
+
+
+        <Frame x:Name="customerFrame" Grid.Row="1" NavigationUIVisibility="Hidden" Background="White"/>
+    </Grid>
+</Window>

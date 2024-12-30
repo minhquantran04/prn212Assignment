@@ -1,0 +1,103 @@
+﻿<Page x:Class="CE181985_Tran_Minh_Quan_Assignment_2.Views.Admin.ManageCustomerPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CE181985_Tran_Minh_Quan_Assignment_2.Views.Admin"
+      xmlns:statusConverter="clr-namespace:CE181985_Tran_Minh_Quan_Assignment_2.Utilities"
+      xmlns:passwordBoxHelper="clr-namespace:CE181985_Tran_Minh_Quan_Assignment_2.Utilities"
+      xmlns:converters="clr-namespace:CE181985_Tran_Minh_Quan_Assignment_2.Converters"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Manage Customer Page" Background="Red">
+
+    <!-- Resource Declaration for Converters -->
+    <Page.Resources>
+        <statusConverter:StatusConverter x:Key="StatusConverter"/>
+        <converters:DateOnlyToDateTimeConverter x:Key="DateOnlyToDateTimeConverter"/>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+
+        <!-- DataGrid for displaying customers -->
+        <DataGrid ItemsSource="{Binding Customers}" SelectedItem="{Binding SelectedItem, Mode=OneWayToSource}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding CustomerId}" Width="0.5*"/>
+                <DataGridTextColumn Header="Full Name" Binding="{Binding CustomerFullName}" Width="*"/>
+                <DataGridTextColumn Header="Telephone" Binding="{Binding Telephone}" Width="*"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding EmailAddress}" Width="*"/>
+                <DataGridTextColumn Header="Birthday" Binding="{Binding CustomerBirthday, Converter={StaticResource DateOnlyToDateTimeConverter}, StringFormat='dd/MM/yyyy'}" Width="*"/>
+
+                <DataGridTextColumn Header="Status" Binding="{Binding CustomerStatus, Converter={StaticResource StatusConverter}}" Width="0.5*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Form for Customer Details and Actions -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Left Column - Customer Information -->
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Width="200">
+                    <Label>ID</Label>
+                    <TextBox x:Name="idTxt" Text="{Binding NewItem.CustomerId}" IsEnabled="False"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1" Width="200">
+                    <Label>Full Name</Label>
+                    <TextBox x:Name="fullNameTxt" Text="{Binding NewItem.CustomerFullName}"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="2" Width="200">
+                    <Label>Telephone</Label>
+                    <TextBox x:Name="telephoneTxt" Text="{Binding NewItem.Telephone}"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- Middle Column - Email, Birthdate, Password -->
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Width="200">
+                    <Label>Email</Label>
+                    <TextBox x:Name="emailTxt" Text="{Binding NewItem.EmailAddress}"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1" Width="200">
+                    <Label>Birthdate</Label>
+                    <DatePicker x:Name="birthdate" SelectedDate="{Binding NewItem.CustomerBirthday, Mode=TwoWay, Converter={StaticResource DateOnlyToDateTimeConverter}}"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="2" Width="200">
+                    <Label>Password</Label>
+                    <PasswordBox x:Name="passBox" passwordBoxHelper:PasswordBoxHelper.BoundPassword="{Binding NewItem.Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                </StackPanel>
+            </Grid>
+
+            <!-- Right Column - Action Buttons -->
+            <StackPanel Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100">
+                <Button x:Name="addBtn" Margin="10" Height="25" Background="Bisque" Command="{Binding AddCommand}">ADD</Button>
+                <Button x:Name="updateBtn" Margin="10" Height="25" Background="Bisque" Command="{Binding UpdateCommand}">UPDATE</Button>
+                <Button x:Name="deleteBtn" Margin="10" Height="25" Background="Bisque" Command="{Binding DeleteCommand}">DELETE</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

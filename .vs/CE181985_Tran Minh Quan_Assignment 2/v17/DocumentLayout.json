@@ -1,0 +1,162 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPT\\Term5\\FA24\\PRN212\\CE181985_TranMinhQuan_Assignment2\\Assignment-2-PRN212-WPF-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC452943-26B0-40D2-BF7E-04D77C98A6C5}|CE181985_Tran Minh Quan_Assignment 2.csproj|d:\\fpt\\term5\\fa24\\prn212\\ce181985_tranminhquan_assignment2\\assignment-2-prn212-wpf-main\\views\\customer\\customerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC452943-26B0-40D2-BF7E-04D77C98A6C5}|CE181985_Tran Minh Quan_Assignment 2.csproj|solutionrelative:views\\customer\\customerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC452943-26B0-40D2-BF7E-04D77C98A6C5}|CE181985_Tran Minh Quan_Assignment 2.csproj|d:\\fpt\\term5\\fa24\\prn212\\ce181985_tranminhquan_assignment2\\assignment-2-prn212-wpf-main\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AC452943-26B0-40D2-BF7E-04D77C98A6C5}|CE181985_Tran Minh Quan_Assignment 2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC452943-26B0-40D2-BF7E-04D77C98A6C5}|CE181985_Tran Minh Quan_Assignment 2.csproj|d:\\fpt\\term5\\fa24\\prn212\\ce181985_tranminhquan_assignment2\\assignment-2-prn212-wpf-main\\fuminihotelmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC452943-26B0-40D2-BF7E-04D77C98A6C5}|CE181985_Tran Minh Quan_Assignment 2.csproj|solutionrelative:fuminihotelmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC452943-26B0-40D2-BF7E-04D77C98A6C5}|CE181985_Tran Minh Quan_Assignment 2.csproj|d:\\fpt\\term5\\fa24\\prn212\\ce181985_tranminhquan_assignment2\\assignment-2-prn212-wpf-main\\views\\admin\\adminview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC452943-26B0-40D2-BF7E-04D77C98A6C5}|CE181985_Tran Minh Quan_Assignment 2.csproj|solutionrelative:views\\admin\\adminview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC452943-26B0-40D2-BF7E-04D77C98A6C5}|CE181985_Tran Minh Quan_Assignment 2.csproj|d:\\fpt\\term5\\fa24\\prn212\\ce181985_tranminhquan_assignment2\\assignment-2-prn212-wpf-main\\views\\admin\\managereportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC452943-26B0-40D2-BF7E-04D77C98A6C5}|CE181985_Tran Minh Quan_Assignment 2.csproj|solutionrelative:views\\admin\\managereportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:41:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:43:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:44:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerView.xaml",
+              "DocumentMoniker": "D:\\FPT\\Term5\\FA24\\PRN212\\CE181985_TranMinhQuan_Assignment2\\Assignment-2-PRN212-WPF-main\\Views\\Customer\\CustomerView.xaml",
+              "RelativeDocumentMoniker": "Views\\Customer\\CustomerView.xaml",
+              "ToolTip": "D:\\FPT\\Term5\\FA24\\PRN212\\CE181985_TranMinhQuan_Assignment2\\Assignment-2-PRN212-WPF-main\\Views\\Customer\\CustomerView.xaml",
+              "RelativeToolTip": "Views\\Customer\\CustomerView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T12:49:42.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FuminiHotelManagementContext.cs",
+              "DocumentMoniker": "D:\\FPT\\Term5\\FA24\\PRN212\\CE181985_TranMinhQuan_Assignment2\\Assignment-2-PRN212-WPF-main\\FuminiHotelManagementContext.cs",
+              "RelativeDocumentMoniker": "FuminiHotelManagementContext.cs",
+              "ToolTip": "D:\\FPT\\Term5\\FA24\\PRN212\\CE181985_TranMinhQuan_Assignment2\\Assignment-2-PRN212-WPF-main\\FuminiHotelManagementContext.cs",
+              "RelativeToolTip": "FuminiHotelManagementContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T12:49:18.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminView.xaml",
+              "DocumentMoniker": "D:\\FPT\\Term5\\FA24\\PRN212\\CE181985_TranMinhQuan_Assignment2\\Assignment-2-PRN212-WPF-main\\Views\\Admin\\AdminView.xaml",
+              "RelativeDocumentMoniker": "Views\\Admin\\AdminView.xaml",
+              "ToolTip": "D:\\FPT\\Term5\\FA24\\PRN212\\CE181985_TranMinhQuan_Assignment2\\Assignment-2-PRN212-WPF-main\\Views\\Admin\\AdminView.xaml",
+              "RelativeToolTip": "Views\\Admin\\AdminView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T12:47:01.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageReportPage.xaml",
+              "DocumentMoniker": "D:\\FPT\\Term5\\FA24\\PRN212\\CE181985_TranMinhQuan_Assignment2\\Assignment-2-PRN212-WPF-main\\Views\\Admin\\ManageReportPage.xaml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ManageReportPage.xaml",
+              "ToolTip": "D:\\FPT\\Term5\\FA24\\PRN212\\CE181985_TranMinhQuan_Assignment2\\Assignment-2-PRN212-WPF-main\\Views\\Admin\\ManageReportPage.xaml",
+              "RelativeToolTip": "Views\\Admin\\ManageReportPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T12:45:12.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPT\\Term5\\FA24\\PRN212\\CE181985_TranMinhQuan_Assignment2\\Assignment-2-PRN212-WPF-main\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\FPT\\Term5\\FA24\\PRN212\\CE181985_TranMinhQuan_Assignment2\\Assignment-2-PRN212-WPF-main\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-07T12:44:03.352Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

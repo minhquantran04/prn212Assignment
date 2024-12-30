@@ -1,0 +1,48 @@
+﻿<Window x:Class="CE181985_Tran_Minh_Quan_Assignment_2.Views.Admin.AdminView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Admin View" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header với TextBlock và UniformGrid cho các nút -->
+        <Grid Grid.Row="0" Background="SeaGreen" Height="50">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Tiêu đề "Admin View" -->
+            <TextBlock Text="Admin View" Foreground="White" FontSize="20" FontWeight="Bold" VerticalAlignment="Center" Margin="10,0" Grid.Column="0"/>
+
+            <!-- UniformGrid cho các nút, đảm bảo chia đều không gian -->
+            <UniformGrid Grid.Column="1" Rows="1" Columns="5" HorizontalAlignment="Stretch">
+                <Button x:Name="customerBtn" Background="Bisque" Click="customerBtn_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                    <TextBlock Text="Manage Customer Information" TextWrapping="Wrap" TextAlignment="Center"/>
+                </Button>
+                <Button x:Name="roomBtn" Background="Bisque" Click="roomBtn_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                    <TextBlock Text="Manage Room Information" TextWrapping="Wrap" TextAlignment="Center"/>
+                </Button>
+                <Button x:Name="bookingBtn" Background="Bisque" Click="bookingBtn_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                    <TextBlock Text="Manage Booking Reservation" TextWrapping="Wrap" TextAlignment="Center"/>
+                </Button>
+                <Button x:Name="reportBtn" Background="Bisque" Click="reportBtn_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                    <TextBlock Text="Manage Report" TextWrapping="Wrap" TextAlignment="Center"/>
+                </Button>
+                <Button x:Name="logoutBtn" Background="Bisque" Click="logoutBtn_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                    <TextBlock Text="Logout" TextWrapping="Wrap" TextAlignment="Center"/>
+                </Button>
+            </UniformGrid>
+        </Grid>
+
+        <!-- Nội dung chính -->
+        <Frame x:Name="adminFrame" Grid.Row="1" NavigationUIVisibility="Hidden" Background="White"/>
+    </Grid>
+</Window>
